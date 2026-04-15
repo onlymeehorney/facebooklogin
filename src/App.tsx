@@ -105,7 +105,7 @@ export default function App() {
         {/* Title & Subtitle */}
         <h1 className="text-[26px] font-bold mb-2">Revisa tus SMS</h1>
         <p className="text-[16px] text-gray-700 mb-6">
-          Ingresa el código que enviamos al +1 ********53.
+          Ingresa el código que enviamos.
         </p>
 
         {/* Illustration */}
