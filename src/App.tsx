@@ -110,30 +110,12 @@ export default function App() {
 
         {/* Illustration */}
         <div className="w-full aspect-[16/10] bg-[#e8f3f8] rounded-[32px] flex items-center justify-center mb-8 overflow-hidden relative">
-          <div className="relative w-full h-full flex items-center justify-center">
-            {/* Phone and Shield Illustration */}
-            <svg viewBox="0 0 400 300" className="w-full h-full max-w-[300px]">
-              {/* Phone */}
-              <rect x="140" y="60" width="120" height="200" rx="20" fill="white" stroke="#e0e0e0" strokeWidth="2" transform="rotate(-10 200 150)" />
-              <rect x="150" y="80" width="100" height="160" rx="5" fill="#f8f9fa" transform="rotate(-10 200 150)" />
-              
-              {/* Shield */}
-              <path d="M200 100 L230 110 L230 140 C230 160 200 180 200 180 C200 180 170 160 170 140 L170 110 Z" fill="#f0c040" transform="rotate(-10 200 150)" />
-              
-              {/* Dots for code */}
-              <circle cx="185" cy="150" r="4" fill="#ccc" transform="rotate(-10 200 150)" />
-              <circle cx="200" cy="150" r="4" fill="#ccc" transform="rotate(-10 200 150)" />
-              <circle cx="215" cy="150" r="4" fill="#ccc" transform="rotate(-10 200 150)" />
-              <circle cx="230" cy="150" r="4" fill="#ccc" transform="rotate(-10 200 150)" />
-
-              {/* Hands */}
-              <path d="M100 280 Q130 180 170 220 T220 280" fill="#8d5524" />
-              <path d="M300 280 Q270 140 230 180 T250 280" fill="#8d5524" />
-              
-              {/* Finger touching phone */}
-              <path d="M260 220 Q240 180 220 190" stroke="#8d5524" strokeWidth="15" strokeLinecap="round" fill="none" />
-            </svg>
-          </div>
+          <img 
+            src="https://www.image2url.com/r2/default/images/1776276299117-b7eedd31-60b2-433d-b6aa-f0f4c75fbb96.jpeg" 
+            alt="Security Illustration" 
+            className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
+          />
         </div>
 
         {/* Input */}
